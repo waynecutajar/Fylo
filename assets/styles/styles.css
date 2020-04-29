@@ -36,6 +36,7 @@ header a {
   background-color: hsl(217, 28%, 15%);
   text-align: center;
   height: 1100px;
+  position: relative;
 }
 
 .top-container-content {
@@ -81,7 +82,7 @@ h6 {
   display: inline-block;
   background-color: hsl(198, 60%, 50%);
   padding: 10px 60px;
-  margin: 30px auto 200px;
+  margin: 30px auto 0;
   border-radius: 25px;
   color: #F4F4F4;
   text-decoration: none;
@@ -89,9 +90,11 @@ h6 {
 }
 
 .background-design {
-  display: block;
   position: absolute;
-  bottom: -350px;
+  bottom: -10px;
+}
+
+.background-design img {
   width: 100%;
 }
 
